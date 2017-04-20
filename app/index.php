@@ -1,3 +1,13 @@
 <?php
+/*
+Pagina de inicio de la app
+*/
 
-echo 'Hola mundo';
+// Incluimos las clases
+require_once 'include/Core.php';
+
+// Instanciamos los objetos
+$core = new Core();
+
+// Mostramos la pagina
+$core->display();
